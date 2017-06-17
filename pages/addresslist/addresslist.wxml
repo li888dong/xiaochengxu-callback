@@ -1,16 +1,17 @@
 <!--pages/addresslist/addresslist.wxml-->
 <view class="top">
-通讯录
+  通讯录
 
 </view>
-<icon type="clear" id="addIcon"/>
+<icon type="clear" id="addIcon" bindtap="goToAdd" />
 <view class="search">
- <icon id="searchIcon" type="search" /> <input placeholder="搜索联系人" />
+  <icon id="searchIcon" type="search" />
+  <input placeholder="搜索联系人" />
 </view>
 <view class="addressList">联系人1</view>
 <template name="addressList">
-  <view wx:for="{{contact}}" class="contacts">
-  <image src="../../imgs/calllog.png" ></image>
+  <view wx:for="{{contact}}" class="contacts" bindtap="goToContact">
+    <image src="../../imgs/calllog.png"></image>
     <text> {{item}} </text>
     <icon type="download" />
   </view>

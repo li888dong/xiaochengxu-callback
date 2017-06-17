@@ -1,12 +1,11 @@
-// pages/calllog/calllog.js
+// pages/addresslist/addAddress/addAddress.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    contact: ['10086', '13838510803', '17788888888']
-
+  
   },
 
   /**
@@ -63,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  goToContact: function () {
-    console.log('tiaozhuang')
-    wx.navigateTo({
-      url: '../singleContact/singleContact',
-    })
   }
 })

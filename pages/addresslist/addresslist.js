@@ -62,5 +62,17 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  goToAdd:function(){
+    console.log('tiaozhuang')
+    wx.navigateTo({
+      url: '../addAddress/addAddress',
+    })
+  },
+  goToContact: function () {
+    console.log('tiaozhuang')
+    wx.navigateTo({
+      url: '../singleContact/singleContact',
+    })
   }
 })

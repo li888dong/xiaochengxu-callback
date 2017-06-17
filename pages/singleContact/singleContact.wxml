@@ -1,0 +1,10 @@
+<!--pages/singleContact/singleContact.wxml-->
+<view class="topBackground">
+  <image src="../../imgs/calllog.png"></image>
+  <text>{{name}}</text>
+</view>
+<view class="contactInfo">
+<text>电话：</text>
+<text>{{name}}</text>
+<icon type="info" />
+</view>

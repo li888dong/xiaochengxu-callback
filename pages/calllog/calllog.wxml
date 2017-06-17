@@ -1,7 +1,7 @@
 <!--pages/calllog/calllog.wxml-->
 <template name="addressList">
-  <view wx:for="{{contact}}" class="contacts">
-  <image src="../../imgs/calllog.png" ></image>
+  <view wx:for="{{contact}}" class="contacts" bindtap="goToContact">
+    <image src="../../imgs/calllog.png"></image>
     <text> {{item}} </text>
     <icon type="download" />
   </view>

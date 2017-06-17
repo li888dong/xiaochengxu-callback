@@ -1,0 +1,20 @@
+/* pages/singleContact/singleContact.wxss */
+.topBackground{
+  background: deepskyblue;
+  height: 400rpx;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center
+}
+.topBackground image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.contactInfo{
+  height: 40rpx;
+  padding: 15rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around
+}

@@ -1,1 +1,34 @@
 /* pages/addAddress/addAddress.wxss */
+.topPic{
+  height: 300rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.topPic image{
+  width: 150rpx;
+  height: 150rpx
+}
+.name,.tel{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  height: 100rpx;
+  padding-top: 40rpx;
+  border-bottom: 1px solid deepskyblue
+}
+text{
+  width: 25%;
+  display: inline-block
+}
+
+input{
+  width: 70%;
+  height: 40rpx;
+  display: inline-block
+}
+button{
+  margin-top: 40rpx;
+  width: 40%
+}
