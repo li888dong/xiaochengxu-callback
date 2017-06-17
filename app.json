@@ -1,0 +1,55 @@
+{
+  "pages": [
+  
+    "pages/call/call",
+    "pages/personal/personal",
+    "pages/calllog/calllog",
+    "pages/addresslist/addresslist",
+    "pages/addAddress/addAddress"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "NTS回拨",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/call/call",
+        "text": "电话",
+        "iconPath":"imgs/tel.png",
+        "selectedIconPath":"imgs/tel.png"
+      },{
+        "pagePath": "pages/addAddress/addAddress",
+        "text": "添加",
+        "iconPath": "imgs/tel.png",
+        "selectedIconPath": "imgs/tel.png"
+      },
+      
+      {
+        "pagePath": "pages/addresslist/addresslist",
+        "text": "通讯录",
+        "iconPath": "imgs/addresslist.png",
+        "selectedIconPath": "imgs/addresslist.png"
+      },{
+        "pagePath": "pages/calllog/calllog",
+        "text": "通话记录",
+        "iconPath": "imgs/calllog.png",
+        "selectedIconPath": "imgs/calllog.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "imgs/personal.png",
+        "selectedIconPath": "imgs/personal.png"
+      }
+      
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

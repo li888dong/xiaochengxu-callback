@@ -1,0 +1,27 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.contacts{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  border-bottom: 0.5rpx solid #000;
+  height: 80rpx;
+  padding-top: 40rpx
+  
+}
+.contacts image{
+  width: 40rpx;
+  height: 40rpx;
+  display: inline-block
+}
+.contacts text{
+  width: 50%
+}

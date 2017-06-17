@@ -1,0 +1,55 @@
+/* pages/addresslist/addresslist.wxss */
+.top{
+  background: cadetblue;
+  height: 100rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  color: white
+}
+#addIcon{
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  transform: rotate(45deg)
+}
+#searchIcon{
+  background: white;
+  margin-top: 10rpx
+}
+.search{
+  height: 100rpx;
+  background: #eee;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around
+}
+.search input{
+  background: white;
+  border-radius: 5px;
+  width: 90%;
+  height: 80rpx;
+  margin: 10rpx;
+}
+.addressList{
+  background: #eee;
+  
+}
+.contacts{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  border-bottom: 0.5rpx solid #000;
+  height: 80rpx;
+  padding-top: 40rpx
+  
+}
+.contacts image{
+  width: 40rpx;
+  height: 40rpx;
+  display: inline-block
+}
+.contacts text{
+  width: 50%
+}

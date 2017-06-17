@@ -1,0 +1,4 @@
+/* pages/calllog/calllog.wxss */
+.callLog{
+  background: #eee
+}

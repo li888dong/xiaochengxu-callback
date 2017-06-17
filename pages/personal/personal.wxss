@@ -1,0 +1,21 @@
+/* pages/personal/personal.wxss */
+.topBackground{
+  background: deepskyblue;
+  height: 400rpx;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center
+}
+.topBackground image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.container{
+  background: lightgray;
+  padding-top: 20rpx
+}
+.infoList{
+  background: white;
+  width: 90%
+}

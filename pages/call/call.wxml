@@ -1,0 +1,37 @@
+<!--pages/call/call.wxml-->
+<view class="lb">
+<view class="lb1">1</view>
+<view class="lb2">2</view>
+<view class="lb3">3</view>
+</view>
+<view class="inputTel" wx:if="telNumber">
+  <text>{{telNumber}}</text>
+</view>
+<view class="keybord">
+  <view class="key1">
+    <view id="key1" class="key2" bindtap="clickKeybord">1</view>
+    <view id="key2" class="key2" bindtap="clickKeybord">2</view>
+    <view id="key3" class="key2" bindtap="clickKeybord">3</view>
+  </view>
+  <view class="key1">
+    <view id="key4" class="key2" bindtap="clickKeybord">4</view>
+    <view id="key5" class="key2" bindtap="clickKeybord">5</view>
+    <view id="key6" class="key2" bindtap="clickKeybord">6</view>
+  </view>
+  <view class="key1">
+    <view id="key7" class="key2" bindtap="clickKeybord">7</view>
+    <view id="key8" class="key2" bindtap="clickKeybord">8</view>
+    <view id="key9" class="key2" bindtap="clickKeybord">9</view>
+  </view>
+  <view class="key1">
+    <view id="key10" class="key2" bindtap="clickKeybord">*</view>
+    <view id="key11" class="key2" bindtap="clickKeybord">0</view>
+    <view id="key12" class="key2" bindtap="clickKeybord">x</view>
+  </view>
+
+</view>
+
+
+<view class="toCall">
+  <button type="primary">呼叫按钮</button>
+</view>
