@@ -1,9 +1,11 @@
 <!--pages/call/call.wxml-->
-<view class="lb">
-<view class="lb1">1</view>
-<view class="lb2">2</view>
-<view class="lb3">3</view>
-</view>
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
 <view class="inputTel" wx:if="telNumber">
   <text>{{telNumber}}</text>
 </view>

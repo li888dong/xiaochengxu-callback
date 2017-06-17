@@ -1,29 +1,6 @@
 /* pages/call/call.wxss */
-.lb{
-  width: 300%;
-  height: 320rpx;
-  overflow: hidden;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  
-}
-.lb1{
-  width: 100%;
-  background-color: yellow;
-  height: 320rpx;
-}
-.lb2{
-  width: 100%;
-  
-  background-color: purple;
-  height: 320rpx;
-}
-.lb3{
-  width: 100%;
-  
-  background-color: orangered;
-  height: 320rpx;
+.slide-image{
+  width: 100%
 }
 .keybord{
   background: yellowgreen;

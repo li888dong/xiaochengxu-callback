@@ -15,6 +15,7 @@
   },
   "tabBar": {
     "list": [
+      
       {
         "pagePath": "pages/call/call",
         "text": "电话",
